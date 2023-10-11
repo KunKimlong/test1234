@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+    <!-- <script src="./assets/Js/javascript.js"></script> -->
+</head>
+<body>
+    <div class="content">
+        <div class="left">
+            <div class="profile">
+                <div class="img">
+                    <img src="" alt="" width="100px" height="100px">
+                </div>
+                <h1>Welcome to admin </h1>
+            </div>
+            <hr size="4" color="white">
+            <div class="all_btn">
+                <ul>
+                    <li class="drop">
+                        <div class="drop-title">
+                            <h1>Account</h1>
+                            <img src="icon/arrow.png" alt="">
+                        </div>
+                        <ul class="drop_item">
+                            <a href="logout.php"><li>Logout</li></a>
+                        </ul>
+                    </li>
+                    <li class="drop">
+                        <div class="drop-title">
+                            <h1>Data</h1>
+                            <img src="icon/arrow.png" alt="">
+                        </div>
+                        <ul class="drop_item">
+                            <a href="add_data.php"><li>Add Data</li></a>
+                            <a href="view_data.php"><li>View Data</li></a>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="right">
+            <div class="head">
+                <div class="image">
+                    <img src="../Image/logohead.jpg" alt="">
+                </div>
+                <div class="title">
+                    <h1>Welcome to Dashboard</h1>
+                </div>
+            </div>
+            <div class="data">
+                <div class="detail-data">
+                    <div class="data-title">
+                        <h1>Add Data</h1>
+                    </div>
+                    <div class="add">
+                        <form action="">
+                            <label for="">Block</label>
+                            <select name="" id="block">
+                                <option value="web-front-end">Web Front-end</option>
+                                <option value="web-back-end">Web Back-end</option>
+                                <option value="framework-front">Front-end Framework</option>
+                                <option value="framework-back">Back-end Framework</option>
+                            </select>
+                            <label for="" id="title" style="display: block;">Title:</label>
+                            <select name="" id="t_web_front" style="display: block;">
+                                <option value="html">HTML</option>
+                                <option value="css">CSS</option>
+                                <option value="javascript">Java script</option>
+                            </select>
+                            <select name="" id="t_web_back" style="display: none;">
+                                <option value="html">PHP</option>
+                                <option value="css">SQL</option>
+                                <option value="javascript">Ajax</option>
+                            </select>
+                            <select name="" id="t_front_framework" style="display: none;">
+                                <option value="html">Vue</option>
+                                <option value="css">React</option>
+                                <option value="javascript">Jquery</option>
+                            </select>
+                            <select name="" id="t_back_framework" style="display: none;">
+                                <option value="html">Laravel</option>
+                                <option value="css">Cake PHP</option>
+                            </select>
+                            <label for="">Photo:</label>
+                            <input type="file" name="" id="">
+                            <label for="">Description:</label>
+                            <textarea name="" id="" placeholder="Enter Description"></textarea>
+                            <button class="btn-lightblue" type="submit">Submit</button>
+                            <button class="btn-clear" type="reset">Reset</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+            

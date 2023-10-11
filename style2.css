@@ -1,0 +1,83 @@
+:root{
+    --light-green:#00FFAA ;
+    --light-blue:#00DCFF ;
+}
+header{
+    position: relative;
+}
+header nav .logo{
+    display: flex;
+    justify-content: center;
+}
+header nav ul.nav-data{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+}
+header nav ul.nav-data li.nav-item{
+    margin: 0 20px;
+    background-color: antiquewhite;
+    padding: 5px 10px;
+}
+header nav form button.btn-search{
+    background-color:var(--light-green);
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+header nav .phone{
+    /* display: none; */
+    position: absolute;
+}
+header nav .phone.bar{
+    left: 0 ;
+}
+header nav .phone.search{
+    right: 0;
+}
+header nav  button.btn-phone{
+    background-color: var(--light-blue);
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+
+@media (max-width: 576px) { 
+    header nav.navbar{
+        display: flex;
+        justify-content: center;
+    }
+    ul.nav-data{
+        display: none !important;
+    }
+    form.block-search{
+        display: none !important;
+    }
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+ }
